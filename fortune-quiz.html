@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller Quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller Quiz</h2>
+      </div>
+      <form id="quiz">
+        <div class="form-group">
+          <p>In the past week, what <em>unlucky</em> signs have you encountered?</p>
+          <input type="checkbox" name="unlucky-sign" value="black-cat"> A black cat crossed your path.<br>
+          <input type="checkbox" name="unlucky-sign" value="broken-mirror">Broke a mirror.<br>
+          <input type="checkbox" name="unlucky-sign" value="ladder">Walked under a ladder<br>
+          <input type="checkbox" name="unlucky-sign" value="salt-spill">Tipped over a salt shaker.<br>
+          <input type="checkbox" name="unlucky-sign" value="doppleganger">You saw your doppleganger.<br>
+          <input type="checkbox" name="unlucky-sign" value="umbrella">Opened an umbrella indoors.<br>
+          <input type="checkbox" name="unlucky-sign" value="Friday-13th">You cut your hair on Friday the 13th.<br>
+          <input type="checkbox" name="unlucky-sign" value="bedside">You got out on the other side of the bed.<br>
+          <input type="checkbox" name="unlucky-sign" value="boat-spiders">You killed a spider on a boat.<br>
+          <input type="checkbox" name="unlucky-sign" value="crack">You stepped on a crack..<br>
+        </div>
+        <div class="form-group">
+          <p>In the past week, what <em>lucky</em> signs have you come across?</p>
+          <input type="checkbox" name="lucky-sign" value="clover"> You found a four leaf clover.<br>
+          <input type="checkbox" name="lucky-sign" value="rainbow">Spotted a double rainbow.<br>
+          <input type="checkbox" name="lucky-sign" value="lady-bug">A lady-bug landed on you.<br>
+          <input type="checkbox" name="lucky-sign" value="penny">You found a penny heads up.<br>
+          <input type="checkbox" name="lucky-sign" value="shooting-star">Saw a shooting star.<br>
+          <input type="checkbox" name="lucky-sign" value="bird-poo">A bird pooed on you.<br>
+          <input type="checkbox" name="lucky-sign" value="right-palm">Experienced an itch on your right palm.<br>
+          <input type="checkbox" name="lucky-sign" value="fuzzy-dice">Your Ubder driver had hanging fuzzy dice.<br>
+          <input type="checkbox" name="lucky-sign" value="key">Someone gave you a key.<br>
+          <input type="checkbox" name="lucky-sign" value="cricket">Found a cricket in your home.<br>
+        </div>
+       <button type="submit">What's your fortune?!</button>
+      </form>
+      <br>
+      <span id="bad-fortune">
+        <p><b>Sorry, you might die soon.</b></p>
+      </span>
+      <span id="neutral-fortune">
+        <p><b>Your fortune is neither good nor bad. No news is good news.</b></p>
+      </span>
+      <span id="good-fortune">
+        <p><b>Buy a lotto ticket! Your luck is so hot right now!</b></p>
+      </span>
+    </div>
+  </body>
+</html>
